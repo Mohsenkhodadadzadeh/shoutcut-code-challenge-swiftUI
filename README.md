@@ -3,7 +3,7 @@
 ## Project Images
 here is the screenshots of views:
 
-![Browse View](https://github.com/Mohsenkhodadadzadeh/shoutcut-code-challenge-swiftUI/blob/readme/raedmeimages/br.png) ![Detail View](https://github.com/Mohsenkhodadadzadeh/shoutcut-code-challenge-swiftUI/blob/readme/raedmeimages/dt.png) ![Favorite view](https://github.com/Mohsenkhodadadzadeh/shoutcut-code-challenge-swiftUI/blob/readme/raedmeimages/fv.png)
+![Browse View](https://github.com/Mohsenkhodadadzadeh/shoutcut-code-challenge-swiftUI/blob/master/raedmeimages/br.png) ![Detail View](https://github.com/Mohsenkhodadadzadeh/shoutcut-code-challenge-swiftUI/blob/master/raedmeimages/dt.png) ![Favorite view](https://github.com/Mohsenkhodadadzadeh/shoutcut-code-challenge-swiftUI/blob/master/raedmeimages/fv.png)
 
 ## Prepare app before run:
 

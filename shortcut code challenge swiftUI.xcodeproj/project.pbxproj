@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		826F80642753B10B006ED31D /* FavoriteViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 826F80632753B10B006ED31D /* FavoriteViewModel.swift */; };
 		828152C6275381EA00C4D76B /* RemoteDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 828152C5275381EA00C4D76B /* RemoteDownloader.swift */; };
 		828152C82753821200C4D76B /* DetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 828152C72753821200C4D76B /* DetailViewModel.swift */; };
 		828152CA2753826300C4D76B /* ComicExtraExplainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 828152C92753826300C4D76B /* ComicExtraExplainView.swift */; };
@@ -52,6 +53,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		826F80632753B10B006ED31D /* FavoriteViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteViewModel.swift; sourceTree = "<group>"; };
 		828152C5275381EA00C4D76B /* RemoteDownloader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteDownloader.swift; sourceTree = "<group>"; };
 		828152C72753821200C4D76B /* DetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewModel.swift; sourceTree = "<group>"; };
 		828152C92753826300C4D76B /* ComicExtraExplainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComicExtraExplainView.swift; sourceTree = "<group>"; };
@@ -191,6 +193,7 @@
 			children = (
 				82CB5C792753759A00A5479A /* BrowseViewModel.swift */,
 				828152C72753821200C4D76B /* DetailViewModel.swift */,
+				826F80632753B10B006ED31D /* FavoriteViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -361,6 +364,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				826F80642753B10B006ED31D /* FavoriteViewModel.swift in Sources */,
 				828C2C3027536A63001728CD /* Persistence.swift in Sources */,
 				828152CA2753826300C4D76B /* ComicExtraExplainView.swift in Sources */,
 				82CB5C882753778300A5479A /* ListItemView.swift in Sources */,

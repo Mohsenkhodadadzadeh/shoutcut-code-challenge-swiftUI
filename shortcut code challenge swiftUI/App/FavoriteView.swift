@@ -8,7 +8,27 @@
 import SwiftUI
 
 struct FavoriteView: View {
+    
+    @ObservedObject var viewModel: FavoriteViewModel = FavoriteViewModel()
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        
+        NavigationView {
+            List {
+                ForEach(viewModel.items, id: \.num) { item in
+                    NavigationLink(destination: DetailView(item: item)
+                    ) {
+                        ListItemView(item: item)
+                    }
+                    
+                }//: FOREACH
+                .onDelete(perform: viewModel.removeComic)
+                
+            }//: LIST
+            .navigationBarTitle("Favorite Comics", displayMode: .large)
+            .onAppear {
+                viewModel.fetchObjects()
+            }
+        }//: NAVIGATIONVIEW
     }
 }

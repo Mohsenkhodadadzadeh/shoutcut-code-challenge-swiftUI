@@ -25,6 +25,7 @@
 		82CB5C832753766900A5479A /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82CB5C822753766900A5479A /* Date.swift */; };
 		82CB5C852753773400A5479A /* Collection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82CB5C842753773400A5479A /* Collection.swift */; };
 		82CB5C882753778300A5479A /* ListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82CB5C872753778300A5479A /* ListItemView.swift */; };
+		82CB5C8B275379DC00A5479A /* ExtensionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82CB5C8A275379DC00A5479A /* ExtensionTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +68,7 @@
 		82CB5C842753773400A5479A /* Collection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Collection.swift; sourceTree = "<group>"; };
 		82CB5C872753778300A5479A /* ListItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListItemView.swift; sourceTree = "<group>"; };
 		82CB5C892753788000A5479A /* shortcut-code-challenge-swiftUI-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "shortcut-code-challenge-swiftUI-Info.plist"; sourceTree = SOURCE_ROOT; };
+		82CB5C8A275379DC00A5479A /* ExtensionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,6 +147,7 @@
 			isa = PBXGroup;
 			children = (
 				828C2C3C27536A64001728CD /* shortcut_code_challenge_swiftUITests.swift */,
+				82CB5C8A275379DC00A5479A /* ExtensionTests.swift */,
 			);
 			path = "shortcut code challenge swiftUITests";
 			sourceTree = "<group>";
@@ -361,6 +364,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				828C2C3D27536A64001728CD /* shortcut_code_challenge_swiftUITests.swift in Sources */,
+				82CB5C8B275379DC00A5479A /* ExtensionTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -575,7 +579,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -599,7 +603,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

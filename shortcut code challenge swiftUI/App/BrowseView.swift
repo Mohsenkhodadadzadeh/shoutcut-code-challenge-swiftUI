@@ -10,13 +10,13 @@ import Combine
 
 struct BrowseView: View {
     
-    @ObservedObject var viewModel: BrowseVM = BrowseVM()
+    @ObservedObject var viewModel: BrowseViewModel = BrowseViewModel()
     
     var body: some View {
         NavigationView {
             List {
                 ForEach(viewModel.remoteData, id: \.num) { item in
-                    NavigationLink(destination: DetailView()) {
+                    NavigationLink(destination: DetailView(item: item)) {
                         ListItemView(item: item)
                         
                     }

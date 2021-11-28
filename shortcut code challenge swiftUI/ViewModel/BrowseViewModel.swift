@@ -8,7 +8,7 @@
 import SwiftUI
 import Combine
 
-class BrowseVM: ObservableObject {
+class BrowseViewModel: ObservableObject {
  
     @Published var remoteData: [ComicModel] = []
     

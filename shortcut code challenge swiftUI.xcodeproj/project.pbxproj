@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		828C2C2727536A62001728CD /* shortcut_code_challenge_swiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 828C2C2627536A62001728CD /* shortcut_code_challenge_swiftUIApp.swift */; };
-		828C2C2927536A62001728CD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 828C2C2827536A62001728CD /* ContentView.swift */; };
 		828C2C2B27536A63001728CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 828C2C2A27536A63001728CD /* Assets.xcassets */; };
 		828C2C2E27536A63001728CD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 828C2C2D27536A63001728CD /* Preview Assets.xcassets */; };
 		828C2C3027536A63001728CD /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 828C2C2F27536A63001728CD /* Persistence.swift */; };
@@ -16,6 +15,10 @@
 		828C2C3D27536A64001728CD /* shortcut_code_challenge_swiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 828C2C3C27536A64001728CD /* shortcut_code_challenge_swiftUITests.swift */; };
 		828C2C4727536A64001728CD /* shortcut_code_challenge_swiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 828C2C4627536A64001728CD /* shortcut_code_challenge_swiftUIUITests.swift */; };
 		828C2C4927536A64001728CD /* shortcut_code_challenge_swiftUIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 828C2C4827536A64001728CD /* shortcut_code_challenge_swiftUIUITestsLaunchTests.swift */; };
+		82CB5C7127536FE500A5479A /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82CB5C7027536FE500A5479A /* MainView.swift */; };
+		82CB5C732753700900A5479A /* BrowseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82CB5C722753700900A5479A /* BrowseView.swift */; };
+		82CB5C752753702300A5479A /* FavoriteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82CB5C742753702300A5479A /* FavoriteView.swift */; };
+		82CB5C772753703800A5479A /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82CB5C762753703800A5479A /* DetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +41,6 @@
 /* Begin PBXFileReference section */
 		828C2C2327536A62001728CD /* shortcut code challenge swiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "shortcut code challenge swiftUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		828C2C2627536A62001728CD /* shortcut_code_challenge_swiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = shortcut_code_challenge_swiftUIApp.swift; sourceTree = "<group>"; };
-		828C2C2827536A62001728CD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		828C2C2A27536A63001728CD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		828C2C2D27536A63001728CD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		828C2C2F27536A63001728CD /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
@@ -48,6 +50,10 @@
 		828C2C4227536A64001728CD /* shortcut code challenge swiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "shortcut code challenge swiftUIUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		828C2C4627536A64001728CD /* shortcut_code_challenge_swiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = shortcut_code_challenge_swiftUIUITests.swift; sourceTree = "<group>"; };
 		828C2C4827536A64001728CD /* shortcut_code_challenge_swiftUIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = shortcut_code_challenge_swiftUIUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		82CB5C7027536FE500A5479A /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		82CB5C722753700900A5479A /* BrowseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrowseView.swift; sourceTree = "<group>"; };
+		82CB5C742753702300A5479A /* FavoriteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteView.swift; sourceTree = "<group>"; };
+		82CB5C762753703800A5479A /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,8 +104,8 @@
 		828C2C2527536A62001728CD /* shortcut code challenge swiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				82CB5C6F27536FD100A5479A /* App */,
 				828C2C2627536A62001728CD /* shortcut_code_challenge_swiftUIApp.swift */,
-				828C2C2827536A62001728CD /* ContentView.swift */,
 				828C2C2A27536A63001728CD /* Assets.xcassets */,
 				828C2C2F27536A63001728CD /* Persistence.swift */,
 				828C2C3127536A63001728CD /* shortcut_code_challenge_swiftUI.xcdatamodeld */,
@@ -131,6 +137,17 @@
 				828C2C4827536A64001728CD /* shortcut_code_challenge_swiftUIUITestsLaunchTests.swift */,
 			);
 			path = "shortcut code challenge swiftUIUITests";
+			sourceTree = "<group>";
+		};
+		82CB5C6F27536FD100A5479A /* App */ = {
+			isa = PBXGroup;
+			children = (
+				82CB5C7027536FE500A5479A /* MainView.swift */,
+				82CB5C722753700900A5479A /* BrowseView.swift */,
+				82CB5C742753702300A5479A /* FavoriteView.swift */,
+				82CB5C762753703800A5479A /* DetailView.swift */,
+			);
+			path = App;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -264,8 +281,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				828C2C3027536A63001728CD /* Persistence.swift in Sources */,
-				828C2C2927536A62001728CD /* ContentView.swift in Sources */,
+				82CB5C7127536FE500A5479A /* MainView.swift in Sources */,
+				82CB5C732753700900A5479A /* BrowseView.swift in Sources */,
+				82CB5C772753703800A5479A /* DetailView.swift in Sources */,
 				828C2C3327536A63001728CD /* shortcut_code_challenge_swiftUI.xcdatamodeld in Sources */,
+				82CB5C752753702300A5479A /* FavoriteView.swift in Sources */,
 				828C2C2727536A62001728CD /* shortcut_code_challenge_swiftUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -434,6 +454,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Dark;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -463,6 +484,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Dark;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

@@ -6,9 +6,33 @@
 //
 
 import SwiftUI
+import Combine
 
 struct BrowseView: View {
+    
+    @ObservedObject var viewModel: BrowseVM = BrowseVM()
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        NavigationView {
+            List {
+                ForEach(viewModel.remoteData, id: \.num) { item in
+                    NavigationLink(destination: DetailView()) {
+                        ListItemView(item: item)
+                        
+                    }
+                    
+                }//: FOREACH
+                if viewModel.comicLoadedCount >= (viewModel.comicBunchCount ) {
+                    Rectangle()
+                        .onAppear {
+                            print("count is: \(viewModel.comicLoadedCount)")
+                            viewModel.comicLoadedCount = 0
+                            viewModel.loadComicBunch(comicId: viewModel.remoteData.last?.num)
+                        }
+                }
+            }//: LIST
+            .navigationBarTitle("Browse Comics", displayMode: .large)
+        }//: NAVIGATIONVIEW
+        
     }
 }

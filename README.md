@@ -12,6 +12,11 @@ Before run the project you must define `server_url` and `destination_file` as pr
 
 ## Some notes before reviewing code and commits.
 
+### The Architecture pattern
+
+This project has been written with MVVM.
+
+
 ### Why I have just added bitrise as CI:
 because I use iOS 15 as deployment target to use `async await` multithreading way and for this reason I could not use Github CI ( because the max deployment target for github CI is iOS 14), and may you want to know why any merge did not test with Bitrise. it is because of I used the free plan of Bitrise and I used all credits as free and unfortunately I am not able to charge it, because I live in a country which does not access to any International credit card ( like visacard and master card), but all tests were passed on xcode.
 

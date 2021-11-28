@@ -19,6 +19,14 @@
 		82CB5C732753700900A5479A /* BrowseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82CB5C722753700900A5479A /* BrowseView.swift */; };
 		82CB5C752753702300A5479A /* FavoriteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82CB5C742753702300A5479A /* FavoriteView.swift */; };
 		82CB5C772753703800A5479A /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82CB5C762753703800A5479A /* DetailView.swift */; };
+		82CB5C7A2753759A00A5479A /* BrowseVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82CB5C792753759A00A5479A /* BrowseVM.swift */; };
+		82CB5C7D275375EC00A5479A /* Services.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82CB5C7C275375EC00A5479A /* Services.swift */; };
+		82CB5C802753763500A5479A /* ComicModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82CB5C7F2753763500A5479A /* ComicModel.swift */; };
+		82CB5C832753766900A5479A /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82CB5C822753766900A5479A /* Date.swift */; };
+		82CB5C852753773400A5479A /* Collection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82CB5C842753773400A5479A /* Collection.swift */; };
+		82CB5C882753778300A5479A /* ListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82CB5C872753778300A5479A /* ListItemView.swift */; };
+		82CB5C8B275379DC00A5479A /* ExtensionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82CB5C8A275379DC00A5479A /* ExtensionTests.swift */; };
+		82CB5C8E27537C3700A5479A /* Browse View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82CB5C8D27537C3700A5479A /* Browse View.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +62,15 @@
 		82CB5C722753700900A5479A /* BrowseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrowseView.swift; sourceTree = "<group>"; };
 		82CB5C742753702300A5479A /* FavoriteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteView.swift; sourceTree = "<group>"; };
 		82CB5C762753703800A5479A /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		82CB5C792753759A00A5479A /* BrowseVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrowseVM.swift; sourceTree = "<group>"; };
+		82CB5C7C275375EC00A5479A /* Services.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Services.swift; sourceTree = "<group>"; };
+		82CB5C7F2753763500A5479A /* ComicModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComicModel.swift; sourceTree = "<group>"; };
+		82CB5C822753766900A5479A /* Date.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
+		82CB5C842753773400A5479A /* Collection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Collection.swift; sourceTree = "<group>"; };
+		82CB5C872753778300A5479A /* ListItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListItemView.swift; sourceTree = "<group>"; };
+		82CB5C892753788000A5479A /* shortcut-code-challenge-swiftUI-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "shortcut-code-challenge-swiftUI-Info.plist"; sourceTree = SOURCE_ROOT; };
+		82CB5C8A275379DC00A5479A /* ExtensionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionTests.swift; sourceTree = "<group>"; };
+		82CB5C8D27537C3700A5479A /* Browse View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Browse View.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +121,12 @@
 		828C2C2527536A62001728CD /* shortcut code challenge swiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				82CB5C892753788000A5479A /* shortcut-code-challenge-swiftUI-Info.plist */,
+				82CB5C862753776A00A5479A /* View */,
+				82CB5C812753765700A5479A /* Extension */,
+				82CB5C7E2753762100A5479A /* Model */,
+				82CB5C7B275375D900A5479A /* Services */,
+				82CB5C782753758400A5479A /* ViewModel */,
 				82CB5C6F27536FD100A5479A /* App */,
 				828C2C2627536A62001728CD /* shortcut_code_challenge_swiftUIApp.swift */,
 				828C2C2A27536A63001728CD /* Assets.xcassets */,
@@ -126,6 +149,7 @@
 			isa = PBXGroup;
 			children = (
 				828C2C3C27536A64001728CD /* shortcut_code_challenge_swiftUITests.swift */,
+				82CB5C8A275379DC00A5479A /* ExtensionTests.swift */,
 			);
 			path = "shortcut code challenge swiftUITests";
 			sourceTree = "<group>";
@@ -135,6 +159,7 @@
 			children = (
 				828C2C4627536A64001728CD /* shortcut_code_challenge_swiftUIUITests.swift */,
 				828C2C4827536A64001728CD /* shortcut_code_challenge_swiftUIUITestsLaunchTests.swift */,
+				82CB5C8D27537C3700A5479A /* Browse View.swift */,
 			);
 			path = "shortcut code challenge swiftUIUITests";
 			sourceTree = "<group>";
@@ -148,6 +173,47 @@
 				82CB5C762753703800A5479A /* DetailView.swift */,
 			);
 			path = App;
+			sourceTree = "<group>";
+		};
+		82CB5C782753758400A5479A /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				82CB5C792753759A00A5479A /* BrowseVM.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		82CB5C7B275375D900A5479A /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				82CB5C7C275375EC00A5479A /* Services.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		82CB5C7E2753762100A5479A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				82CB5C7F2753763500A5479A /* ComicModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		82CB5C812753765700A5479A /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				82CB5C822753766900A5479A /* Date.swift */,
+				82CB5C842753773400A5479A /* Collection.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		82CB5C862753776A00A5479A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				82CB5C872753778300A5479A /* ListItemView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -281,11 +347,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				828C2C3027536A63001728CD /* Persistence.swift in Sources */,
+				82CB5C882753778300A5479A /* ListItemView.swift in Sources */,
 				82CB5C7127536FE500A5479A /* MainView.swift in Sources */,
 				82CB5C732753700900A5479A /* BrowseView.swift in Sources */,
+				82CB5C852753773400A5479A /* Collection.swift in Sources */,
+				82CB5C802753763500A5479A /* ComicModel.swift in Sources */,
 				82CB5C772753703800A5479A /* DetailView.swift in Sources */,
 				828C2C3327536A63001728CD /* shortcut_code_challenge_swiftUI.xcdatamodeld in Sources */,
 				82CB5C752753702300A5479A /* FavoriteView.swift in Sources */,
+				82CB5C7A2753759A00A5479A /* BrowseVM.swift in Sources */,
+				82CB5C832753766900A5479A /* Date.swift in Sources */,
+				82CB5C7D275375EC00A5479A /* Services.swift in Sources */,
 				828C2C2727536A62001728CD /* shortcut_code_challenge_swiftUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -295,6 +367,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				828C2C3D27536A64001728CD /* shortcut_code_challenge_swiftUITests.swift in Sources */,
+				82CB5C8B275379DC00A5479A /* ExtensionTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -303,6 +376,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				828C2C4727536A64001728CD /* shortcut_code_challenge_swiftUIUITests.swift in Sources */,
+				82CB5C8E27537C3700A5479A /* Browse View.swift in Sources */,
 				828C2C4927536A64001728CD /* shortcut_code_challenge_swiftUIUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -449,13 +523,14 @@
 				DEVELOPMENT_ASSET_PATHS = "\"shortcut code challenge swiftUI/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "shortcut-code-challenge-swiftUI-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UIUserInterfaceStyle = Dark;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -479,13 +554,14 @@
 				DEVELOPMENT_ASSET_PATHS = "\"shortcut code challenge swiftUI/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "shortcut-code-challenge-swiftUI-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UIUserInterfaceStyle = Dark;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -507,7 +583,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -531,7 +607,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

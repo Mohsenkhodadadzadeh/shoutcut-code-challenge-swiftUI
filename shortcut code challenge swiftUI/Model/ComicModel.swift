@@ -7,9 +7,9 @@
 
 import SwiftUI
 
-struct ComicModel: Codable, Equatable {
+public struct ComicModel: Codable, Equatable {
     
-    var num: Int
+    public var num: Int
     
     var description: String
     
@@ -61,7 +61,7 @@ struct ComicModel: Codable, Equatable {
         _publishdate = date
     }
     
-    init(num: Int, description: String, publishedDate: Date, link: String, image: UIImage?, news: String, safeTitle: String, title: String, transcript: String) {
+    public init(num: Int, description: String, publishedDate: Date, link: String, image: UIImage?, news: String, safeTitle: String, title: String, transcript: String) {
         self.num = num
         self.description = description
         let calenderDate = Calendar.current.dateComponents([.day, .year, .month], from: publishedDate)

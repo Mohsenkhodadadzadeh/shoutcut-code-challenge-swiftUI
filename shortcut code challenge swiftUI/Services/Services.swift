@@ -33,7 +33,7 @@ public final class Services {
         return retObj
     }
     
-    static func urlGenerator(with id: Int? = nil) -> URL? {
+    public static func urlGenerator(with id: Int? = nil) -> URL? {
         if let fileId = id {
             let urlString = Services.generalUrl.replacingOccurrences(of: "{0}", with: "\(fileId)")
             return URL(string: urlString)

@@ -33,6 +33,8 @@ struct BrowseView: View {
             }//: LIST
             .navigationBarTitle("Browse Comics", displayMode: .large)
         }//: NAVIGATIONVIEW
-        
+        .onAppear {
+            UserNotification.shared.askForPermission()
+        }
     }
 }

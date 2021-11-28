@@ -26,6 +26,7 @@
 		82CB5C852753773400A5479A /* Collection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82CB5C842753773400A5479A /* Collection.swift */; };
 		82CB5C882753778300A5479A /* ListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82CB5C872753778300A5479A /* ListItemView.swift */; };
 		82CB5C8B275379DC00A5479A /* ExtensionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82CB5C8A275379DC00A5479A /* ExtensionTests.swift */; };
+		82CB5C8E27537C3700A5479A /* Browse View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82CB5C8D27537C3700A5479A /* Browse View.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +70,7 @@
 		82CB5C872753778300A5479A /* ListItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListItemView.swift; sourceTree = "<group>"; };
 		82CB5C892753788000A5479A /* shortcut-code-challenge-swiftUI-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "shortcut-code-challenge-swiftUI-Info.plist"; sourceTree = SOURCE_ROOT; };
 		82CB5C8A275379DC00A5479A /* ExtensionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionTests.swift; sourceTree = "<group>"; };
+		82CB5C8D27537C3700A5479A /* Browse View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Browse View.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -157,6 +159,7 @@
 			children = (
 				828C2C4627536A64001728CD /* shortcut_code_challenge_swiftUIUITests.swift */,
 				828C2C4827536A64001728CD /* shortcut_code_challenge_swiftUIUITestsLaunchTests.swift */,
+				82CB5C8D27537C3700A5479A /* Browse View.swift */,
 			);
 			path = "shortcut code challenge swiftUIUITests";
 			sourceTree = "<group>";
@@ -373,6 +376,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				828C2C4727536A64001728CD /* shortcut_code_challenge_swiftUIUITests.swift in Sources */,
+				82CB5C8E27537C3700A5479A /* Browse View.swift in Sources */,
 				828C2C4927536A64001728CD /* shortcut_code_challenge_swiftUIUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

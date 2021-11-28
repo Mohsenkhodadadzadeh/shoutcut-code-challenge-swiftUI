@@ -7,7 +7,7 @@ here is the screenshots of views:
 
 ## Prepare app before run:
 
-Before run the project you must define `server_url` and `destination_file` as process enviorment object. for doing that you need open `Edit scheme` from `Product -> Scheme -> Edit scheme' menu. and add the Enviorment Variables same as following image if they are not exist.
+Before run the project you must define `server_url` and `destination_file` as process enviorment object. for doing that you need open `Edit scheme` from `Product -> Scheme -> Edit scheme` menu. and add the Enviorment Variables same as following image if they are not exist.
 ![Enviorment variables in scheme](https://github.com/Mohsenkhodadadzadeh/shoutcut-code-challenge-swiftUI/blob/master/raedmeimages/scheme.png)
 
 ## Some notes before reviewing code and commits.
@@ -55,3 +55,13 @@ This class is responsible to get push notification permission from user(or may d
 #### Background Task for sending notification
 
 It is handled on `shortcut_code_challenge_swiftUIApp.swift` file (project's @main)
+
+
+### App Directory
+
+This directory contains all main views ( Main, Brwose Comics, Detail Comics, and Favorite)
+
+
+### View Directory
+
+This directory contains view objects for using on main views.

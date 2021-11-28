@@ -8,7 +8,7 @@ here is the screenshots of views:
 ## Prepare app before run:
 
 Before run the project you must define `server_url` and `destination_file` as process enviorment object. for doing that you need open `Edit scheme` from `Product -> Scheme -> Edit scheme' menu. and add the Enviorment Variables same as following image if they are not exist.
-![Enviorment variables in scheme](https://github.com/Mohsenkhodadadzadeh/shoutcut-code-challenge-swiftUI/blob/readme/raedmeimages/scheme.png)
+![Enviorment variables in scheme](https://github.com/Mohsenkhodadadzadeh/shoutcut-code-challenge-swiftUI/blob/master/raedmeimages/scheme.png)
 
 ## Some notes before reviewing code and commits.
 
